@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Routine Tracker</string>
+    <string name="routine_tracker_title">Routine Tracker</string>
+    <string name="add_routine_button">➕ Add New Routine</string>
+    <string name="routine_image_desc">Skincare routine illustration</string>
+</resources>

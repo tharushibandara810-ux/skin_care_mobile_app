@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingTop="40dp"
+    android:background="@drawable/input_bg">
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Skin Care!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/primaryColor">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="273dp"
+        android:layout_height="277dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/dash" />
+    <Button
+        android:id="@+id/btnSkincareTips"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Skin care Tips"
+        android:backgroundTint="@color/accentColor"
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="20dp"/>
+    <Button
+        android:id="@+id/btnsettings"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Settings"
+        android:backgroundTint="@color/accentColor"
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="20dp"/>
+
+    <Button
+        android:id="@+id/btnRoutineTracker"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/accentColor"
+        android:text="Routine Tracker" />
+</LinearLayout>
